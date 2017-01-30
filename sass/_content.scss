@@ -14,6 +14,7 @@ nav {
 		 text-decoration: none;
 		 font-family: 'Oswald', sans-serif;
 		 color: $primaryDark;
+		 font-size: 20px;
 		 margin: 0 7px;
 		 font-weight: 600;
 		 }
@@ -26,7 +27,8 @@ nav {
 		 font-size: 25px;
 		 position: absoulte;
 		 margin-left:20px;
-		 margin-top: -2px;
+		 margin-right:9px;
+		 margin-top: 2px;
 		 }
 		 
 	 .log-in, .search {
@@ -44,7 +46,13 @@ main {
 	 p {
          list-style-type: lower-greek;
 	     li:hover { color: $accentColour;}
-	     font-family: 'Oswald', sans-serif;   
+	     font-family: 'Oswald', sans-serif; 
+         padding: 10px 30px 10px 30px;
+         text-align:center;  
+		 color: #222;
+		 height: 40px;
+		 width: 95%;
+		 background: #57535f;
 	 }
 	 
 	 
@@ -54,12 +62,14 @@ main {
 	 
 }
  .mar-img {
-       
-	   padding: 20px 80px;
+         float:right;
+		 
+	     padding: 20px 260px;
 	     }
 	     
 
 .background-icon-1 {
+         width:100%;
 		 background: linear-gradient( rgba(20,20, 0.2, 0.2), rgba(20,20, 0.2, 0.2) ),
          url('../img/mar-1.jpg');
          background-position: 50% 50%;
@@ -68,9 +78,11 @@ main {
           -moz-background-size:cover;
           background-size:cover;
 		  
+		  
 		 }
 		 
 .background-icon-2 {
+         width:100%;
 		 background: linear-gradient( rgba(20,20, 0.2, 0.2), rgba(20,20, 0.2, 0.2) ),
          url('../img/mar-1.jpeg');
          background-position: 50% 50%;
@@ -82,6 +94,7 @@ main {
 		 }
 
 .background-icon-3 {
+        width:100%;
 		 background: linear-gradient( rgba(20,20, 0.2, 0.2), rgba(20,20, 0.2, 0.2) ),
          url('../img/marvel.png');
          background-position: 50% 50%;

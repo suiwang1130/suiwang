@@ -2,6 +2,7 @@
 
 footer {
      .footer-icon {
+	    margin-top: 80px;
         height: 50px;
 		width: 30%;
 		
@@ -21,6 +22,7 @@ footer {
  
      hr  {
 	     color: $primaryDark;
+		 margin:0;
          } 
       
      a {
@@ -34,6 +36,7 @@ footer {
 	 
      ul {
 	     list-style: none;
+		 color: $accentColour;
 		 
 	   
 	     }
@@ -41,22 +44,23 @@ footer {
 	  p, li {
          list-style-type: none;
 		  font-family: 'Oswald', sans-serif;
-		  font-size: 25px;
+		  font-size: 20px;
 		  letter-spacing: 2px;
 		  inline-height: 2px;
-		  color: #fff;
+		  color: $accentColour;
+		  margin-top: 0;
 		  
 		 }
 		 
 	 .item-1 p {
 	     margin-left: 20px;
-		 color: #fff;
+		 color: $accentColour;
 		 }
 	 
 	 
      .item-3 li {
 	     font-size: 25px;
-		 color: #fff;
+		 color: $accentColour;
 		 text-align: center;
          display: inline-block;
      } 

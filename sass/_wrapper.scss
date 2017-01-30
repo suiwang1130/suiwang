@@ -1,0 +1,30 @@
+/*imported _wrapper.css*/
+
+
+body {
+     margin:0 auto;
+	 padding:20px 80px;
+     background-color: $primaryLight;
+	// overflow-x: hidden;
+     }
+
+Nav {
+     margin:0 auto;
+	 padding:20px 80px;
+     top: $headerHeight;
+     height: $navbarHeight;	 
+	 @include showbox();
+	 //&:hover { @include askew(90deg);}
+	}
+
+main {
+     //overflow-x: visible;
+     //width: 90%;
+	 
+	 background: #57535f;
+	 overflow-y: auto;
+	 top: $headerHeight + $navbarHeight;
+     
+	 @include showbox();
+}	
+	

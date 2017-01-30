@@ -1,7 +1,29 @@
 /*imported _footer.css*/
 
-.footer-list {
-         a {
+footer {
+     .footer-icon {
+        height: 50px;
+		width: 30%;
+		
+		}
+		
+	
+     .footer-list {
+	     text-align: center;
+		 font-size: 30px;
+		 font-weight: 600;
+        height: 150px;
+	    width:60%;
+	    padding-top: 50px;
+        
+	    display: inline-block;
+        }
+ 
+     hr  {
+	     color: $primaryDark;
+         } 
+      
+     a {
          text-transform: uppercase;
 		 text-decoration: none;
 		 font-family: 'Oswald', sans-serif;
@@ -9,5 +31,55 @@
 		 margin: 0 7px;
 		 font-weight: 600;
 		 }
+	 
+     ul {
+	     list-style: none;
+		 
+	   
+	     }
+		 
+	  p, li {
+         list-style-type: none;
+		  font-family: 'Oswald', sans-serif;
+		  font-size: 25px;
+		  letter-spacing: 2px;
+		  inline-height: 2px;
+		  color: #fff;
+		  
+		 }
+		 
+	 .item-1 p {
+	     margin-left: 20px;
+		 color: #fff;
+		 }
+	 
+	 
+     .item-3 li {
+	     font-size: 25px;
+		 color: #fff;
+		 text-align: center;
+         display: inline-block;
+     } 
+	     .footer-icon {
+		     float: right;
+			 }
+	 
+	 .copyright p { 
+	     display: block;
+		 font-size: 15px;
+         font-family: lower-greek;
+		 margin-top: 0;
+		 padding-top:-15px;
+		 margin-left:10px;
+		 margin-bottom:0;
+		 
+     }		 
+
+
+     .clearfix::after {
+      content: "";
+     display: table;
+     clear: both;
+     }
 	 
 	 }

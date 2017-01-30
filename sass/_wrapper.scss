@@ -4,8 +4,11 @@
 body {
      margin:0 auto;
 	 padding:20px 80px;
-     background-color: $primaryLight;
+	 background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) );
+     background-color: #1f0404;
 	// overflow-x: hidden;
+	 
+	
      }
 
 Nav {
@@ -24,7 +27,16 @@ main {
 	 background: #57535f;
 	 overflow-y: auto;
 	 top: $headerHeight + $navbarHeight;
+	 
+	 
      
 	 @include showbox();
 }	
+
+figure { 
+     header-img {
+     padding: 0 50px;
+	 margin: 0 20px;
+	 }
+}
 	
